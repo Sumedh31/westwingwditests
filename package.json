@@ -17,5 +17,16 @@
     "@wdio/sync": "^6.11.0",
     "chromedriver": "^87.0.7",
     "wdio-chromedriver-service": "^6.0.4"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sumedh31/westwingwditests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Sumedh31/westwingwditests/issues"
+  },
+  "homepage": "https://github.com/Sumedh31/westwingwditests#readme"
 }
