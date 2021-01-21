@@ -37,13 +37,13 @@ class HomePage extends Page {
 
     }
     HandleLoginPopupAfterRegistration(){
-        if(this.loginOverLayPopUpAfterRegistration.waitForExist({ timeout:5000, interval:100 })){
+        if(this.loginOverLayPopUpAfterRegistration.waitForExist({ timeout:5000, interval:1000 })){
             this.loginOverLayCloseButton.click();        
         }
 
     }
     HandleRegistrationPopUp(){
-        if(this.registrationPopUp.waitForExist({ timeout:5000, interval:100 })){
+        if(this.registrationPopUp.waitForExist({ timeout:5000, interval:400 })){
             this.loginButtonFromRegPopUp.click();
             this.HandleLoginPopupAfterRegistration();
         }
