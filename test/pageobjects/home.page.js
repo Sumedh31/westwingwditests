@@ -15,6 +15,7 @@ class HomePage extends Page {
     get loginButtonFromRegPopUp () {return this.registrationPopUp.$('button[data-testid*="login-button"]')}
     get loginOverLayPopUpAfterRegistration () {return $('div[data-testid*="overlay-header"]')}
     get loginOverLayCloseButton () {return this.loginOverLayPopUpAfterRegistration.$('button[data-identifier*="LOGIN_AND_REGISTER"]')}
+    get numberOfWishListedItems () {return $('span[data-testid="wishlist-counter"]')}
     
 
     /**
@@ -47,6 +48,7 @@ class HomePage extends Page {
             this.loginButtonFromRegPopUp.click();
             this.HandleLoginPopupAfterRegistration();
         }
+        
     }
     
 
