@@ -49,8 +49,7 @@ class HomePage extends Page {
             this.HandleLoginPopupAfterRegistration();
         }
         
-    }
-    
+    }   
 
     /**
      * overwrite specifc options to adapt it to page object
