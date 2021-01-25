@@ -1,0 +1,11 @@
+app:
+  build: .
+  command: npx wdio wdio.conf.js --spec ./test/specs/wishliste2e.js
+  links:
+    - selenium
+
+selenium:
+  image: selenium/standalone-chrome
+  expose:
+    - "4444"
+  log_driver: "none"

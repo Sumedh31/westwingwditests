@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "selenium": "selenium-standalone install && selenium-standalone start",
     "test": "wdio wdio.conf.js"
   },
   "keywords": [],

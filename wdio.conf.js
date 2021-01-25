@@ -50,9 +50,14 @@ exports.config = {
         // maxInstances can get overwritten per capability. So if you have an in-house Selenium
         // grid with only 5 firefox instances available you can make sure that not more than
         // 5 instances get started at a time.
-        maxInstances: 5,
+        'maxInstances': 5,
         //
-        browserName: 'chrome',
+        'browserName': 'chrome',
+		'goog:chromeOptions': {
+			args: [
+			  '--no-sandbox',
+			]
+		  },
         acceptInsecureCerts: true
         // If outputDir is provided WebdriverIO can capture driver session logs
         // it is possible to configure which logTypes to include/exclude.
@@ -90,7 +95,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://localhost',
+    baseUrl: 'http://localhost:4444',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
