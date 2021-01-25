@@ -8,8 +8,8 @@ The test is located at
 .test/pageobjects/* contains the elements stored in page object format
 
 # Run Test
-To run the test execute following commands
-Download the Repo
+To run the test execute download the repo and execute following commands
+
 
 ```docker
 cd westwingwditests
