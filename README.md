@@ -37,5 +37,5 @@ docker-compose.yml file contains command that executes the test only for file wi
 In order to be able to run more tests this command can be modified to run suites or can be replaced with "npm test" to run all the available tests.
 
 # Note
-Currently running the test withing the docker container is giving an issue with chromedriver probably due to some configuration issues.
+Currently running the test within the docker container is giving an issue with chromedriver probably due to some configuration issues.
 
