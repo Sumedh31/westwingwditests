@@ -11,6 +11,7 @@ The test is located at
 To run the test execute following commands
 Download the Repo
 
+```docker
 cd westwingwditests
 docker-compose build
 docker-compose up
